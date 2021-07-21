@@ -33,7 +33,7 @@ export const FroalaEditor = () => {
   const handleModelChange = (model) => {
     setModel(model);
   };
-
+  // this looks like its going undefined all the time
   // Editor initialization
 //     useEffect(() => {
 //     ref.current.editor.data._init = null;
